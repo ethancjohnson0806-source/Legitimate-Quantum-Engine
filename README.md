@@ -70,7 +70,7 @@ This project is a testament to the power of AI orchestration in complex technica
 
 ## License
 
-This project is open-source and available under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the **MIT License**. This means you are free to use, copy, and modify the software, provided that the original copyright notice and permission notice are included. It provides you, the creator, with legal protection by stating that the software is provided "as is" without warranty. See the [LICENSE](LICENSE) file for the full text.
 
 ---
 
