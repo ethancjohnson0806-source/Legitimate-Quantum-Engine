@@ -50,6 +50,18 @@ python quantum_engine_v2.py
 
 This will generate the `quantum_engine_evolution_v2.png` plot, showcasing the engine's performance across various metrics in simulation.
 
+## Verified Hardware Execution
+
+This engine has successfully executed quantum circuits on **real IBM Quantum hardware** via the cloud. This verifies its capability to interface with cutting-edge quantum processors and obtain genuine quantum results.
+
+### **Live Execution Log:**
+
+For a detailed record of the live hardware execution, including XEB fidelity scores from IBM Quantum backends, please refer to the `live_execution_log.json` file:
+
+[hardware_verification/live_execution_log.json](hardware_verification/live_execution_log.json)
+
+---
+
 ## Connecting to IBM Quantum Hardware
 
 To unlock the full potential of the engine and run circuits on real quantum hardware (or high-fidelity cloud simulators), you will need an IBM Quantum account and API token. 
