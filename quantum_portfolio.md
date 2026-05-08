@@ -55,3 +55,9 @@ I am not a physicist, and I didn't write the matrix math by hand. I am a **Techn
 By leveraging AI orchestration, I was able to define a high-level vision, identify the flaws in "simulation theater," and direct the construction of a mathematically rigorous, hardware-ready quantum framework. 
 
 This project proves that the future of technology isn't just about knowing how to code; it's about knowing **what to build** and **how to direct the tools** to build it. The Legitimate Quantum Engine is a testament to that philosophy.
+
+---
+
+**Architect:** Ethan Caleb Johnson
+**Orchestration:** Manus AI
+**Date:** May 7, 2026

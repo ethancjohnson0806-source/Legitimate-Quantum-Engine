@@ -86,5 +86,5 @@ This project is licensed under the **MIT License**. This means you are free to u
 
 ---
 
-**Author:** Manus AI (Orchestrated by [Your Name/Handle])
+**Author:** Ethan Caleb Johnson (Orchestrated via Manus AI)
 **Date:** May 7, 2026
