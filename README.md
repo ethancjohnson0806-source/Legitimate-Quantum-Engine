@@ -1,10 +1,22 @@
-# The Legitimate Quantum Engine: From Simulation Theater to Hardware Reality
+# Cross-Paradigm Quantum Engine: Bridging Simulation and Hardware Reality
 
 ![Quantum Engine Evolution Plot](quantum_engine_evolution_v2.png)
 
+## Verified Hardware Execution
+
+This engine has successfully executed quantum circuits on **real IBM Quantum hardware** via the cloud. This verifies its capability to interface with cutting-edge quantum processors and obtain genuine quantum results.
+
+### **Live Execution Log:**
+
+For a detailed record of the live hardware execution, including XEB fidelity scores from IBM Quantum backends, please refer to the `live_execution_log.json` file:
+
+👉 **[View Hardware Verification Log](hardware_verification/live_execution_log.json)**
+
+---
+
 ## Project Overview
 
-This project, the **Legitimate Quantum Engine**, represents a significant leap from conceptual quantum "simulation theater" to a robust, physics-grounded computational framework. Developed through AI orchestration, this engine unifies disparate quantum computing paradigms—gate-based computation, quantum annealing, and variational quantum eigensolvers—into a single, coherent system capable of both high-fidelity local simulation and real-world execution on cloud-based quantum hardware.
+The **Cross-Paradigm Quantum Engine** represents a significant leap from conceptual simulation to a robust, physics-grounded computational framework. Developed through AI orchestration, this engine unifies disparate quantum computing paradigms—gate-based computation, quantum annealing, and variational quantum eigensolvers—into a single, coherent system capable of both high-fidelity local simulation and real-world execution on cloud-based quantum hardware.
 
 ## The Vision: Bridging the Gap
 
@@ -12,7 +24,7 @@ Traditional quantum research often operates in silos: gate-based quantum computi
 
 ## Key Features & Technical Highlights
 
-The Legitimate Quantum Engine integrates several advanced quantum computing concepts:
+The Cross-Paradigm Quantum Engine integrates several advanced quantum computing concepts:
 
 *   **Exact Statevector Simulation**: Utilizes `numpy` for precise, no-approximation statevector simulation, accurately modeling quantum states and gate operations.
 *   **Real Cross-Entropy Benchmarking (XEB)**: Implements the true XEB protocol to measure quantum circuit fidelity, a method famously used by Google to demonstrate quantum supremacy.
@@ -49,18 +61,6 @@ python quantum_engine_v2.py
 ```
 
 This will generate the `quantum_engine_evolution_v2.png` plot, showcasing the engine's performance across various metrics in simulation.
-
-## Verified Hardware Execution
-
-This engine has successfully executed quantum circuits on **real IBM Quantum hardware** via the cloud. This verifies its capability to interface with cutting-edge quantum processors and obtain genuine quantum results.
-
-### **Live Execution Log:**
-
-For a detailed record of the live hardware execution, including XEB fidelity scores from IBM Quantum backends, please refer to the `live_execution_log.json` file:
-
-[hardware_verification/live_execution_log.json](hardware_verification/live_execution_log.json)
-
----
 
 ## Connecting to IBM Quantum Hardware
 
