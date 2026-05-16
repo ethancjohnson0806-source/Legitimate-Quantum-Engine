@@ -1,0 +1,46 @@
+{
+  "engine_version": "V5",
+  "num_qubits": 4,
+  "use_gpu": false,
+  "execution_log": [
+    {
+      "timestamp": "2026-05-15T20:25:36.051491",
+      "algorithm": "VQE",
+      "num_qubits": 4,
+      "optimal_energy": 0.025341543528937277,
+      "iterations": 20,
+      "elapsed_time": 0.04676532745361328,
+      "device": "CPU"
+    },
+    {
+      "timestamp": "2026-05-15T20:25:36.055390",
+      "algorithm": "QAOA",
+      "num_qubits": 4,
+      "optimal_cost": 33631608009.253605,
+      "iterations": 20,
+      "elapsed_time": 0.003871917724609375,
+      "device": "CPU"
+    },
+    {
+      "timestamp": "2026-05-15T20:25:36.055566",
+      "algorithm": "Grover",
+      "num_qubits": 4,
+      "marked_items": [
+        3,
+        5
+      ],
+      "success_probability": 0.125,
+      "iterations": 2,
+      "elapsed_time": 0.00016045570373535156,
+      "device": "CPU"
+    }
+  ],
+  "performance_metrics": {
+    "gate_application": {
+      "cpu_time": 0.0035130977630615234
+    },
+    "hamiltonian_evolution": {
+      "cpu_time": 0.0009441375732421875
+    }
+  }
+}

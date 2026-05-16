@@ -1,0 +1,119 @@
+/home/ubuntu/quantum_advanced_algorithms.py:388: RuntimeWarning: overflow encountered in scalar multiply
+  cost = np.sum(gamma) * np.sum(beta) - np.trace(cost_hamiltonian) / len(gamma)
+/home/ubuntu/.local/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:83: RuntimeWarning: invalid value encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/home/ubuntu/quantum_advanced_noise_models.py:139: ComplexWarning: Casting complex values to real discards the imaginary part
+  new_state[i] *= phase_shift
+/home/ubuntu/quantum_advanced_noise_models.py:81: ComplexWarning: Casting complex values to real discards the imaginary part
+  new_state[i] *= 1j
+/home/ubuntu/quantum_advanced_noise_models.py:79: ComplexWarning: Casting complex values to real discards the imaginary part
+  new_state[i] *= -1j
+Warning: Could not import all modules: cannot import name 'QuantumEngine' from 'quantum_engine_v5_unified' (/home/ubuntu/quantum_engine_v5_unified.py)
+
+======================================================================
+LEGITIMATE QUANTUM ENGINE V5+ - INTEGRATION TEST SUITE
+======================================================================
+
+----------------------------------------------------------------------
+TEST 1: CORE QUANTUM ENGINE
+----------------------------------------------------------------------
+
+  1.1 Testing circuit creation...
+      ✗ Error: name 'QuantumEngine' is not defined
+
+----------------------------------------------------------------------
+TEST 2: IBM QUANTUM INTEGRATION
+----------------------------------------------------------------------
+
+  2.1 Testing IBM Quantum connection and transpilation...
+      ✗ Error: name 'IBMQuantumBridge' is not defined
+
+----------------------------------------------------------------------
+TEST 3: DISTRIBUTED COMPUTING
+----------------------------------------------------------------------
+
+  3.1 Testing parameter sweep...
+✓ Parameter sweep submitted: param_sweep_6e11d3d0 (3 tasks)
+      ✓ Parameter sweep completed: 3 tasks
+  3.2 Testing cluster statistics...
+      ✓ Cluster stats: 4 nodes, 18.8% utilization
+
+----------------------------------------------------------------------
+TEST 4: ADVANCED ALGORITHMS
+----------------------------------------------------------------------
+
+  4.1 Testing VQD (Variational Quantum Deflation)...
+Computing state 0...
+Computing state 1...
+      ✓ VQD computed 2 eigenvalues
+  4.2 Testing ADAPT-VQE...
+ADAPT iteration 0: evaluating operators...
+Convergence reached: max gradient 0.00e+00 < 1.00e-03
+      ✓ ADAPT-VQE selected 0 operators
+  4.3 Testing QAOA+...
+      ✓ QAOA+ optimized cost: -792938239818807148907007760164436836795381375563665043503771022455209984.0000
+
+----------------------------------------------------------------------
+TEST 5: ADVANCED NOISE MODELS
+----------------------------------------------------------------------
+
+  5.1 Testing IBM Quantum noise model...
+      ✓ IBM noise simulation: 8 outcomes
+  5.2 Testing hardware model comparison...
+      ✓ Compared 3 hardware models
+
+----------------------------------------------------------------------
+TEST 6: NOVEL OPTIMIZATION TECHNIQUES
+----------------------------------------------------------------------
+
+  6.1 Testing barren plateau mitigation...
+      ✓ Barren plateau mitigation: -0.1905 → -1.1725
+  6.2 Testing QNN optimizer with KFAC...
+      ✓ QNN KFAC optimizer: final cost 102.6275
+  6.3 Testing hybrid quantum-classical optimizer...
+      ✗ Error: HybridQuantumClassicalOptimizer.run_hybrid_optimization() got an unexpected keyword argument 'iterations'
+
+----------------------------------------------------------------------
+TEST 7: END-TO-END WORKFLOW
+----------------------------------------------------------------------
+
+  7.1 Testing complete VQE workflow...
+      ✓ End-to-end workflow completed successfully
+        - Circuit simulated with noise: 4 outcomes
+        - Optimization converged: -0.2657 → 0.3197
+
+----------------------------------------------------------------------
+TEST 8: PERFORMANCE BENCHMARKS
+----------------------------------------------------------------------
+
+  8.1 Testing simulation performance...
+      ✓ 100 state vector operations: 0.63ms
+  8.2 Testing gradient computation performance...
+      ✓ 50 gradient computations: 3.22ms
+
+======================================================================
+TEST SUMMARY
+======================================================================
+
+Total Tests: 14
+Passed: 11 ✓
+Failed: 3 ✗
+Success Rate: 78.6%
+
+Detailed Results:
+  ✗ FAIL: Core Engine Tests
+  ✗ FAIL: IBM Integration Tests
+  ✓ PASS: Distributed - Parameter Sweep
+  ✓ PASS: Distributed - Cluster Stats
+  ✓ PASS: Advanced Algorithms - VQD
+  ✓ PASS: Advanced Algorithms - ADAPT-VQE
+  ✓ PASS: Advanced Algorithms - QAOA+
+  ✓ PASS: Noise Models - IBM
+  ✓ PASS: Noise Models - Comparison
+  ✓ PASS: Novel Optimization - Barren Plateau
+  ✓ PASS: Novel Optimization - QNN KFAC
+  ✗ FAIL: Novel Optimization Tests
+  ✓ PASS: End-to-End Workflow
+  ✓ PASS: Performance Benchmarks
+
+======================================================================
