@@ -1,0 +1,12 @@
+include README.md
+include LICENSE
+include QUANTUM_ENGINE_MEGA_COCKTAIL_DOCS.md
+include QUANTUM_ENGINE_ENHANCEMENTS_DOCUMENTATION.md
+include QUANTUM_ENGINE_SUMMARY.md
+include QUANTUM_NOVEL_TECHNIQUES.md
+include QUANTUM_DASHBOARD_README.md
+recursive-include . *.py
+recursive-exclude . __pycache__
+recursive-exclude . *.pyc
+recursive-exclude . .pytest_cache
+recursive-exclude . .mypy_cache
