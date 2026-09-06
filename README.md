@@ -8,7 +8,7 @@
 
 **A pure-NumPy quantum computing framework. 53 modules. Zero heavy dependencies. Built for learning, prototyping, and reference.**
 
-LQE is the only quantum simulation framework designed to run on a phone. Every module is pure NumPy with optional Numba JIT acceleration. No Qiskit, no Cirq, no heavy toolchains. Just `import numpy` and go.
+LQE is built to run on a phone — no Qiskit, no Cirq, no heavy toolchains required. Every module is pure NumPy with optional Numba JIT acceleration. No Qiskit, no Cirq, no heavy toolchains. Just `import numpy` and go.
 
 ---
 
