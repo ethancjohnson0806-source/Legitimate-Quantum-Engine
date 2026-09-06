@@ -56,7 +56,7 @@ python shell.py
 ### Option A: Clone and Run (No Install Needed)
 
 ```bash
-git clone https://github.com/yourusername/legitimate-quantum-engine.git
+git clone https://github.com/ethancjohnson0806-source/Legitimate-Quantum-Engine.git
 cd legitimate-quantum-engine
 python -m legitimate_quantum_engine.tests.test_all
 ```
@@ -64,7 +64,7 @@ python -m legitimate_quantum_engine.tests.test_all
 ### Option B: pip Install (Editable)
 
 ```bash
-git clone https://github.com/yourusername/legitimate-quantum-engine.git
+git clone https://github.com/ethancjohnson0806-source/Legitimate-Quantum-Engine.git
 cd legitimate-quantum-engine
 pip install -e .
 ```
