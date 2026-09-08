@@ -10,6 +10,8 @@
 
 LQE is built to run on a phone — no Qiskit, no Cirq, no heavy toolchains required. Every module is pure NumPy with optional Numba JIT acceleration. No Qiskit, no Cirq, no heavy toolchains. Just `import numpy` and go.
 
+> **Prefer a no-install browser experience?** [Open LQE Lite](https://ethancjohnson0806-source.github.io/lqe-lite/) for the phone-friendly JupyterLite lessons. This repository remains the full local engine with the complete module set and advanced features.
+
 ---
 
 ## Quick Start
